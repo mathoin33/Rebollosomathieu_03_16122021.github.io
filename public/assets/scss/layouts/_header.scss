@@ -1,0 +1,43 @@
+@import "../utils/variables";
+@import "../utils/mixin";
+
+.header{
+  @include flex-box-property;
+  @include shadow__header;
+  background: white;
+  height: 70px;
+  width: 100%;
+  .header__text{
+    font-family: 'shrikhand', sans-serif;
+    color: black;
+    margin-block-end: 0;
+    margin-block-start: 10px;
+    z-index: 3;
+  }
+}
+
+.header{
+  @include flex-box-property;
+  background: white;
+  height: 70px;
+  position: relative;
+  box-shadow: 0 5px 6px 0 rgba(0,0,0,0.2);
+  &__text{
+    font-family: 'shrikhand', sans-serif;
+    color: black;
+    margin-block-end: 0;
+    margin-block-start: 10px;
+    z-index: 3;
+  }
+
+  &__arrow--link{
+    position: absolute;
+    top: 25px;
+    left: 40px;
+    font-size: larger;
+
+    & i{
+      color: black;
+    }
+  }
+}

@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="/public/assets/css/main.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ohmyfood</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/d7e1dac9e8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="loader">
+  <div class="loader--spinner"></div>
+</div>
+<header>
+  <div class="header">
+    <a href="index.html">
+      <h1 class="header__text">ohmyfood</h1>
+    </a>
+  </div>
+</header>
+<main>
+    <div class="location">
+      <div class="location--icon">
+        <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+      </div>
+      <div class="location--city">
+        <p>Paris, Belleville</p>
+      </div>
+    </div>
+    <div class="exploration">
+      <h2 class="exploration__title">Réserver le menu qui vous convient</h2>
+      <p class="exploration__text">Découvrez des restaurants d'exception, sélectionnés par nos soins</p>
+      <div class="exploration__btn">
+        <p>Explorer nos restaurants</p>
+      </div>
+    </div>
+  <section class="process__contain">
+    <div class="process">
+      <h2 class="process__title">Fonctionnement</h2>
+      <div class="process__steps">
+        <div class="process__step">
+          <div class="process__step--number">1</div>
+          <div class="process__step--icon">
+            <i class="fas fa-mobile-alt"></i>
+          </div>
+          <p class="process__step--text">Choisissez un restaurant</p>
+        </div>
+        <div class="process__step">
+          <div class="process__step--number">2</div>
+          <div class="process__step--icon">
+            <i class="fas fa-list-ul"></i>
+          </div>
+          <p class="process__step--text">Composez votre menu</p>
+        </div>
+        <div class="process__step">
+          <div class="process__step--number">3</div>
+          <div class="process__step--icon">
+            <i class="fas fa-store"></i>
+          </div>
+          <p class="process__step--text">Dégustez au restaurant</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="restaurants">
+    <h2 class="restaurant__title">Restaurants</h2>
+    <div class="restaurant__cards">
+      <a href="/public/pages/La-palette-du-gout.html">
+        <div class="restaurant__card">
+          <div class="restaurant__card__image">
+            <div class="restaurant__card__image--new">
+              <p class="restaurant__card__image--new__text">Nouveau</p>
+            </div>
+            <img src="/public/assets/images/restaurants/restaurant-one.jpg" alt="La palette du goût">
+          </div>
+          <div class="restaurant__bloc">
+            <div class="restaurant__bloc--info">
+              <div class="restaurant__bloc--info__name">La palette du goût</div>
+              <div class="restaurant__bloc--info__city">Ménilmontant</div>
+            </div>
+            <div class="restaurant__bloc__heart">
+                <svg class="heart heart-full" viewBox="-20 0 550 550"  xml:space="preserve">
+                         <path d="M376,30c-27.783,0-53.255,8.804-75.707,26.168c-21.525,16.647-35.856,37.85-44.293,53.268
+                               c-8.437-15.419-22.768-36.621-44.293-53.268C189.255,38.804,163.783,30,136,30C58.468,30,0,93.417,0,177.514
+                               c0,90.854,72.943,153.015,183.369,247.118c18.752,15.981,40.007,34.095,62.099,53.414C248.38,480.596,252.12,482,256,482
+                               s7.62-1.404,10.532-3.953c22.094-19.322,43.348-37.435,62.111-53.425C439.057,330.529,512,268.368,512,177.514
+                               C512,93.417,453.532,30,376,30z"/>
+                            <defs>
+                              <linearGradient id="text-fill">
+                                    <stop offset="0%" stop-color="#9356DC" />
+                                <stop offset="100%" stop-color="#FF79DA" />
+                              </linearGradient>
+                            </defs>
+                </svg>
+                <svg class="heart heart-empty" viewBox="-20 0 550 550"  xml:space="preserve">
+                        <path d="M376,30c-27.783,0-53.255,8.804-75.707,26.168c-21.525,16.647-35.856,37.85-44.293,53.268
+                                  c-8.437-15.419-22.768-36.621-44.293-53.268C189.255,38.804,163.783,30,136,30C58.468,30,0,93.417,0,177.514
+                                  c0,90.854,72.943,153.015,183.369,247.118c18.752,15.981,40.007,34.095,62.099,53.414C248.38,480.596,252.12,482,256,482
+                                  s7.62-1.404,10.532-3.953c22.094-19.322,43.348-37.435,62.111-53.425C439.057,330.529,512,268.368,512,177.514
+                                  C512,93.417,453.532,30,376,30z"/>
+                       <defs>
+                            <linearGradient>
+                                <stop offset="0%" stop-color="#9356DC" />
+                              <stop offset="100%" stop-color="#FF79DA" />
+                            </linearGradient>
+                        </defs>
+                </svg>
+            </div>
+          </div>
+        </div>
+      </a>
+      <a href="public/pages/La-note-enchantee.html">
+        <div class="restaurant__card">
+          <div class="restaurant__card__image">
+            <div class="restaurant__card__image--new">
+              <p class="restaurant__card__image--new__text">Nouveau</p>
+            </div>
+            <img src="/public/assets/images/restaurants/restaurant-two.jpg" alt="La palette du goût">
+          </div>
+          <div class="restaurant__bloc">
+            <div class="restaurant__bloc--info">
+              <div class="restaurant__bloc--info__name">La note enchantée</div>
+              <div class="restaurant__bloc--info__city">Charonne</div>
+            </div>
+            <div class="restaurant__bloc__heart">
+              <svg class="heart heart-full" viewBox="-20 0 550 550"  xml:space="preserve">
+                         <path d="M376,30c-27.783,0-53.255,8.804-75.707,26.168c-21.525,16.647-35.856,37.85-44.293,53.268
+                               c-8.437-15.419-22.768-36.621-44.293-53.268C189.255,38.804,163.783,30,136,30C58.468,30,0,93.417,0,177.514
+                               c0,90.854,72.943,153.015,183.369,247.118c18.752,15.981,40.007,34.095,62.099,53.414C248.38,480.596,252.12,482,256,482
+                               s7.62-1.404,10.532-3.953c22.094-19.322,43.348-37.435,62.111-53.425C439.057,330.529,512,268.368,512,177.514
+                               C512,93.417,453.532,30,376,30z"/>
+                <defs>
+                              <linearGradient id="text-fill2">
+                                    <stop offset="0%" stop-color="#9356DC" />
+                                <stop offset="100%" stop-color="#FF79DA" />
+                              </linearGradient>
+                            </defs>
+                </svg>
+              <svg class="heart heart-empty" viewBox="-20 0 550 550"  xml:space="preserve">
+                        <path d="M376,30c-27.783,0-53.255,8.804-75.707,26.168c-21.525,16.647-35.856,37.85-44.293,53.268
+                                  c-8.437-15.419-22.768-36.621-44.293-53.268C189.255,38.804,163.783,30,136,30C58.468,30,0,93.417,0,177.514
+                                  c0,90.854,72.943,153.015,183.369,247.118c18.752,15.981,40.007,34.095,62.099,53.414C248.38,480.596,252.12,482,256,482
+                                  s7.62-1.404,10.532-3.953c22.094-19.322,43.348-37.435,62.111-53.425C439.057,330.529,512,268.368,512,177.514
+                                  C512,93.417,453.532,30,376,30z"/>
+                <defs>
+                            <linearGradient>
+                                <stop offset="0%" stop-color="#9356DC" />
+                              <stop offset="100%" stop-color="#FF79DA" />
+                            </linearGradient>
+                        </defs>
+                </svg>
+            </div>
+
+          </div>
+        </div>
+      </a>
+      <a href="public/pages/A-la-francaise.html">
+        <div class="restaurant__card">
+          <div class="restaurant__card__image">
+
+            <img src="/public/assets/images/restaurants/restaurant-three.jpg" alt="La palette du goût">
+          </div>
+          <div class="restaurant__bloc">
+            <div class="restaurant__bloc--info">
+              <div class="restaurant__bloc--info__name">À la française</div>
+              <div class="restaurant__bloc--info__city">Cité Rouge</div>
+            </div>
+            <div class="restaurant__bloc__heart">
+              <svg class="heart heart-full" viewBox="-20 0 550 550"  xml:space="preserve">
+                         <path d="M376,30c-27.783,0-53.255,8.804-75.707,26.168c-21.525,16.647-35.856,37.85-44.293,53.268
+                               c-8.437-15.419-22.768-36.621-44.293-53.268C189.255,38.804,163.783,30,136,30C58.468,30,0,93.417,0,177.514
+                               c0,90.854,72.943,153.015,183.369,247.118c18.752,15.981,40.007,34.095,62.099,53.414C248.38,480.596,252.12,482,256,482
+                               s7.62-1.404,10.532-3.953c22.094-19.322,43.348-37.435,62.111-53.425C439.057,330.529,512,268.368,512,177.514
+                               C512,93.417,453.532,30,376,30z"/>
+                <defs>
+                              <linearGradient id="text-fill3">
+                                    <stop offset="0%" stop-color="#9356DC" />
+                                <stop offset="100%" stop-color="#FF79DA" />
+                              </linearGradient>
+                            </defs>
+                </svg>
+              <svg class="heart heart-empty" viewBox="-20 0 550 550"  xml:space="preserve">
+                        <path d="M376,30c-27.783,0-53.255,8.804-75.707,26.168c-21.525,16.647-35.856,37.85-44.293,53.268
+                                  c-8.437-15.419-22.768-36.621-44.293-53.268C189.255,38.804,163.783,30,136,30C58.468,30,0,93.417,0,177.514
+                                  c0,90.854,72.943,153.015,183.369,247.118c18.752,15.981,40.007,34.095,62.099,53.414C248.38,480.596,252.12,482,256,482
+                                  s7.62-1.404,10.532-3.953c22.094-19.322,43.348-37.435,62.111-53.425C439.057,330.529,512,268.368,512,177.514
+                                  C512,93.417,453.532,30,376,30z"/>
+                <defs>
+                            <linearGradient>
+                                <stop offset="0%" stop-color="#9356DC" />
+                              <stop offset="100%" stop-color="#FF79DA" />
+                            </linearGradient>
+                        </defs>
+                </svg>
+            </div>
+
+          </div>
+        </div>
+      </a>
+      <a href="public/pages/Le-delice-des-sens.html">
+        <div class="restaurant__card">
+          <div class="restaurant__card__image">
+            <img src="/public/assets/images/restaurants/restaurant-four.jpg" alt="La palette du goût">
+          </div>
+          <div class="restaurant__bloc">
+            <div class="restaurant__bloc--info">
+              <div class="restaurant__bloc--info__name">Le délice des sens </div>
+              <div class="restaurant__bloc--info__city">Folie-Méricourt</div>
+            </div>
+            <div class="restaurant__bloc__heart">
+              <svg class="heart heart-full" viewBox="-20 0 550 550"  xml:space="preserve">
+                         <path d="M376,30c-27.783,0-53.255,8.804-75.707,26.168c-21.525,16.647-35.856,37.85-44.293,53.268
+                               c-8.437-15.419-22.768-36.621-44.293-53.268C189.255,38.804,163.783,30,136,30C58.468,30,0,93.417,0,177.514
+                               c0,90.854,72.943,153.015,183.369,247.118c18.752,15.981,40.007,34.095,62.099,53.414C248.38,480.596,252.12,482,256,482
+                               s7.62-1.404,10.532-3.953c22.094-19.322,43.348-37.435,62.111-53.425C439.057,330.529,512,268.368,512,177.514
+                               C512,93.417,453.532,30,376,30z"/>
+                <defs>
+                              <linearGradient id="text-fill4">
+                                    <stop offset="0%" stop-color="#9356DC" />
+                                <stop offset="100%" stop-color="#FF79DA" />
+                              </linearGradient>
+                            </defs>
+                </svg>
+              <svg class="heart heart-empty" viewBox="-20 0 550 550"  xml:space="preserve">
+                        <path d="M376,30c-27.783,0-53.255,8.804-75.707,26.168c-21.525,16.647-35.856,37.85-44.293,53.268
+                                  c-8.437-15.419-22.768-36.621-44.293-53.268C189.255,38.804,163.783,30,136,30C58.468,30,0,93.417,0,177.514
+                                  c0,90.854,72.943,153.015,183.369,247.118c18.752,15.981,40.007,34.095,62.099,53.414C248.38,480.596,252.12,482,256,482
+                                  s7.62-1.404,10.532-3.953c22.094-19.322,43.348-37.435,62.111-53.425C439.057,330.529,512,268.368,512,177.514
+                                  C512,93.417,453.532,30,376,30z"/>
+                <defs>
+                            <linearGradient>
+                                <stop offset="0%" stop-color="#9356DC" />
+                              <stop offset="100%" stop-color="#FF79DA" />
+                            </linearGradient>
+                        </defs>
+                </svg>
+            </div>
+
+          </div>
+        </div>
+      </a>
+    </div>
+  </section>
+</main>
+  <footer>
+    <div class="footer__bloc">
+      <div class="footer__bloc--logo">
+        <a href="index.html">ohmyfood</a>
+      </div>
+      <div class="footer__bloc--service">
+        <div class="footer__bloc__link">
+          <i class="fas fa-utensils"></i>
+          <h3 class="footer__bloc__link--title">Proposer un restaurant</h3>
+        </div>
+        <div class="footer__bloc__link">
+          <i class="fas fa-hands-helping"></i>
+          <h3 class="footer__bloc__link--title">Devenir partenaire</h3>
+        </div>
+        <div class="footer__bloc__link">
+          <h3 class="footer__bloc__link--title">Mentions légales</h3>
+        </div>
+        <div class="footer__bloc__link">
+          <h3 class="footer__bloc__link--title"><a href="mailto::contactohmyfood@gmail.com">Contact</a></h3>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

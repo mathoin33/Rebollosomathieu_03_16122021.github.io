@@ -1,0 +1,55 @@
+@import '../utils/variables';
+
+
+.loader {
+  height: 100%;
+  background: white;
+  margin: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 20;
+  animation: loader 3s linear;
+  visibility: hidden;
+}
+
+
+
+.loader--spinner {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  visibility: hidden;
+  &:before,
+  &:after {
+    content: '';
+    display: block;
+    position: absolute;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    border-bottom-color: $color-primary;
+    border-top-color: $color-secondary;
+    animation: 3s spin linear ;
+    visibility: hidden;
+
+  }
+  &:before {
+    width: 100px;
+    height: 100px;
+    top: 10px;
+    left: 10px;
+  }
+  &:after {
+    width: 120px;
+    height: 120px;
+    animation-direction: reverse;
+  }
+}

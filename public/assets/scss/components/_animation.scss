@@ -1,0 +1,65 @@
+@import "../utils/variables";
+
+  .heart {
+    width: 30px;
+    stroke-width: 30;
+    stroke: black;
+    fill: white;
+    cursor: pointer;
+  }
+  .heart-full {
+    position: absolute;
+    fill: url(#text-fill);
+    stroke: none;
+  }
+  .heart-empty {
+    position: relative;
+    &:hover {
+      opacity: 0;
+      transition: 0.5s;
+    }
+
+  }
+
+
+
+.opacity {
+
+  animation: fadein 2s both;
+
+}
+
+#box-1{
+  animation-delay: 0.1s;
+}
+#box-2{
+  animation-delay: 0.2s;
+}
+
+#box-3{
+  animation-delay: 0.3s;
+}
+
+#box-4{
+  animation-delay: 0.4s;
+}
+
+#box-5{
+  animation-delay: 0.5s;
+}
+
+#box-6{
+  animation-delay: 0.6s;
+}
+
+#box-7{
+  animation-delay: 0.7s;
+}
+
+#box-8{
+  animation-delay: 0.8s;
+}
+
+#box-9{
+  animation-delay: 0.9s;
+}

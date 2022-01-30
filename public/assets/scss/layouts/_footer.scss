@@ -1,0 +1,52 @@
+@import "../utils/variables";
+
+footer{
+  width: 100%;
+  background-color: $color-four;
+}
+
+.footer__bloc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &--logo{
+    align-self: flex-start;
+    margin-left: 4%;
+    font-family: 'shrikhand', sans-serif;
+    margin-top: 15px;
+    font-size: 20px;
+  }
+  &--service{
+    display: flex;
+    width: 92%;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+  }
+  &__link{
+    display: flex;
+    cursor: pointer;
+    align-items: baseline;
+    justify-content: space-between;
+    color: white;
+
+    i{
+      margin-right: 10px;
+    }
+
+
+    &--title{
+      font-weight: 300;
+      &:hover{
+        text-decoration: underline;
+
+      }
+    }
+
+  }
+}
+
+.footer__text__decoration--on:hover a{
+  text-decoration: underline;
+
+}

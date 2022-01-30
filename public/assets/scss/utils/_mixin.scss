@@ -1,0 +1,17 @@
+@mixin flex-box-property {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@mixin shadow__property{
+  box-shadow: 0 3px 10px 0 #d4d4d4;
+}
+@mixin shadow__header{
+  box-shadow: 0 2px 6px 0 rgba(0,0,0,0.20);
+}
+@mixin btn_hover{
+  opacity: 0.8;
+  cursor: pointer;
+  box-shadow: 0 0 10px 0 rgba(0,0,0,0.61);
+  transition: .3s
+}
