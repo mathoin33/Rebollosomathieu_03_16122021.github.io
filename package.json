@@ -1,0 +1,19 @@
+{
+  "name": "p3_rebolloso_mathieu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w public/assets/scss/ -o public/assets/css/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mathoin33/mathoin33-Rebollosomathieu_03_16122021.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mathoin33/mathoin33-Rebollosomathieu_03_16122021.github.io/issues"
+  },
+  "homepage": "https://github.com/mathoin33/mathoin33-Rebollosomathieu_03_16122021.github.io#readme"
+}
