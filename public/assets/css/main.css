@@ -355,8 +355,7 @@ main {
   justify-content: space-around;
 }
 .process__title {
-  align-self: self-start;
-  padding-left: 17%;
+  align-self: center;
 }
 .process__step {
   display: flex;
@@ -484,6 +483,10 @@ main {
     justify-content: space-around;
     align-items: center;
     height: 224px;
+  }
+  .process__title {
+    align-self: self-start;
+    padding-left: 18%;
   }
   .process__step {
     width: 70%;

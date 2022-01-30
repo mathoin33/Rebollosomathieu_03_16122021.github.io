@@ -105,8 +105,8 @@ main{
     justify-content: space-around;
   }
   &__title{
-    align-self: self-start;
-    padding-left: 17%;
+    align-self: center;
+
   }
 
 
@@ -245,6 +245,8 @@ main{
       height: 224px;
     }
     &__title{
+      align-self: self-start;
+      padding-left: 18%;
 
     }
     &__step{
