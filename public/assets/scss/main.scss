@@ -21,11 +21,6 @@ combinateur
   text-decoration: underline;
 
 }
-
-
-
-
-
 main{
   @include flex-box-property;
   flex-direction: column;
