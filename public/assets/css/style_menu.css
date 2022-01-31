@@ -11,6 +11,7 @@
   animation: loader 3s linear;
   visibility: hidden; }
 
+
 .loader--spinner {
   width: 100px;
   height: 100px;
