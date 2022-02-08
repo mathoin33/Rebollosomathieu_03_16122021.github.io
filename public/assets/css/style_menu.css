@@ -372,6 +372,7 @@ bouton commander
       margin: 20px 0 10px 23px; }
     .footer__bloc--service {
       display: flex;
+      width: 95%;
       flex-direction: column;
       height: 120px;
       gap: 10px; }
@@ -380,3 +381,7 @@ bouton commander
     .footer__bloc__link--title {
       font-weight: 300;
       margin: 0; } }
+
+@media all and (max-width: 1240px) and (max-width: 400px) {
+  .footer__bloc--service {
+    width: 88%; } }
