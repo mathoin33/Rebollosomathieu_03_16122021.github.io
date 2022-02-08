@@ -204,33 +204,17 @@ bouton commander
 
     margin: 30px 0 30px 0;
   }
-  .footer__bloc {
-    display: flex;
+  .footer__bloc--service{
     flex-direction: column;
-    align-items: center;
-    &--logo {
-      margin: 20px 0 10px 23px;
-
-    }
-    &--service {
-      display: flex;
-      width: 95%;
-      flex-direction: column;
-      height: 120px;
-      gap: 10px;
-    }
-    &__link {
-      justify-content: flex-start;
-    }
-    &__link--title {
-      font-weight: 300;
-      margin: 0;
-    }
-
+    width: 100%;
   }
+  .footer__bloc__link{
+    justify-content: flex-start;
+  }
+
   @media all and (max-width: 400px) {
-    .footer__bloc--service{
-      width: 88%;
+    .footer__bloc{
+      padding: 0 25px;
     }
 
   }

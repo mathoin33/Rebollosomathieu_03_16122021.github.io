@@ -269,28 +269,12 @@ main{
     }
   }
 
-  .footer__bloc {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    &--logo {
-      margin: 20px 0 10px 23px;
-
-    }
-    &--service {
-      display: flex;
-      flex-direction: column;
-      height: 120px;
-      gap: 10px;
-    }
-    &__link {
-      justify-content: flex-start;
-    }
-    &__link--title {
-      font-weight: 300;
-      margin: 0;
-    }
-
+ .footer__bloc--service{
+   flex-direction: column;
+   width: 100%;
+ }
+  .footer__bloc__link{
+    justify-content: flex-start;
   }
 
 }
@@ -307,8 +291,7 @@ main{
   .restaurants{
     display: block;
     width: 79%;
-
-    padding: 37px;
+    padding: 30px;
   }
   .restaurant__card{
     .restaurant__bloc{
@@ -316,6 +299,7 @@ main{
       justify-content: inherit;
       &--info {
         width: 71%;
+        margin: 0;
       }
     }
 
@@ -325,9 +309,10 @@ main{
 
     margin-right: 17px;
   }
-  .footer__bloc--logo {
-    margin: 20px 0 10px 23px;
+  .footer__bloc{
+    padding: 0 25px;
   }
+
 
 
 }

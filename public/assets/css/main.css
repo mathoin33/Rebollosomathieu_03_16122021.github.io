@@ -100,29 +100,31 @@ body {
 
 footer {
   width: 100%;
-  background-color: #353535; }
+  background-color: #353535;
+  display: flex;
+  justify-content: center; }
 
 .footer__bloc {
-  display: flex;
-  flex-direction: column;
-  align-items: center; }
+  padding: 0 40px;
+  width: 100%;
+  max-width: 1200px; }
   .footer__bloc--logo {
-    align-self: flex-start;
-    margin-left: 4%;
-    font-family: 'shrikhand', sans-serif;
-    margin-top: 15px;
-    font-size: 20px; }
+    font-family: 'Shrikhand', cursive;
+    color: white;
+    font-size: 20px;
+    padding: 15px 0; }
   .footer__bloc--service {
     display: flex;
-    width: 92%;
     justify-content: space-between;
     margin-bottom: 20px; }
   .footer__bloc__link {
     display: flex;
-    cursor: pointer;
-    align-items: baseline;
-    justify-content: space-between;
-    color: white; }
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+    color: white;
+    height: 30px;
+    cursor: pointer; }
     .footer__bloc__link i {
       margin-right: 10px; }
     .footer__bloc__link--title {
@@ -421,22 +423,11 @@ main {
     justify-content: space-evenly; }
     .restaurant__card .restaurant__bloc--info {
       margin: 20px 20px 20px -12px; }
-  .footer__bloc {
-    display: flex;
+  .footer__bloc--service {
     flex-direction: column;
-    align-items: center; }
-    .footer__bloc--logo {
-      margin: 20px 0 10px 23px; }
-    .footer__bloc--service {
-      display: flex;
-      flex-direction: column;
-      height: 120px;
-      gap: 10px; }
-    .footer__bloc__link {
-      justify-content: flex-start; }
-    .footer__bloc__link--title {
-      font-weight: 300;
-      margin: 0; } }
+    width: 100%; }
+  .footer__bloc__link {
+    justify-content: flex-start; } }
 
 @media all and (max-width: 400px) {
   .process__title {
@@ -448,13 +439,14 @@ main {
   .restaurants {
     display: block;
     width: 79%;
-    padding: 37px; }
+    padding: 30px; }
   .restaurant__card .restaurant__bloc {
     gap: 0;
     justify-content: inherit; }
     .restaurant__card .restaurant__bloc--info {
-      width: 71%; }
+      width: 71%;
+      margin: 0; }
   .heart--container {
     margin-right: 17px; }
-  .footer__bloc--logo {
-    margin: 20px 0 10px 23px; } }
+  .footer__bloc {
+    padding: 0 25px; } }

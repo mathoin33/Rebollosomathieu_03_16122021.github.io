@@ -3,32 +3,35 @@
 footer{
   width: 100%;
   background-color: $color-four;
+  display: flex;
+  justify-content: center;
 }
 
 .footer__bloc {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  padding: 0 40px;
+  width: 100%;
+  max-width: 1200px;
   &--logo{
-    align-self: flex-start;
-    margin-left: 4%;
-    font-family: 'shrikhand', sans-serif;
-    margin-top: 15px;
+    font-family: 'Shrikhand', cursive;
+    color: white;
     font-size: 20px;
+    padding: 15px 0;
   }
   &--service{
     display: flex;
-    width: 92%;
     justify-content: space-between;
     margin-bottom: 20px;
 
   }
   &__link{
+
     display: flex;
-    cursor: pointer;
-    align-items: baseline;
-    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
     color: white;
+    height: 30px;
+    cursor: pointer;
 
     i{
       margin-right: 10px;
