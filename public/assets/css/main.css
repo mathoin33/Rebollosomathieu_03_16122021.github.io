@@ -91,7 +91,8 @@ Command F
 body {
   font-family: 'Roboto', sans-serif;
   margin: 0;
-  background: #f6f6f6; }
+  background: #f6f6f6;
+  overflow-x: hidden; }
 
 * a {
   text-decoration: none;
@@ -419,7 +420,7 @@ main {
     gap: 20px;
     justify-content: space-evenly; }
     .restaurant__card .restaurant__bloc--info {
-      margin-left: 20px; }
+      margin: 20px 20px 20px -12px; }
   .footer__bloc {
     display: flex;
     flex-direction: column;
@@ -428,8 +429,6 @@ main {
       margin: 20px 0 10px 23px; }
     .footer__bloc--service {
       display: flex;
-      width: 100%;
-      margin: 10px 0 20px 50px;
       flex-direction: column;
       height: 120px;
       gap: 10px; }
@@ -452,7 +451,7 @@ main {
     gap: 0;
     justify-content: inherit; }
     .restaurant__card .restaurant__bloc--info {
-      width: 57%; }
+      width: 71%; }
   .heart--container {
     margin-right: 17px; }
   .footer__bloc--logo {
